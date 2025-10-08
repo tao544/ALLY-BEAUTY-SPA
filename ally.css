@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(Raleway\ font/Raleway-Italic-VariableFont_wght.ttf);
+
+  font-family: 'LibreBaskerville';
+  src: url(font/Raleway\ font/LibreBaskerville-Regular.ttf);
+
+  font-family: 'poppins';
+  src: url(font/poppins\ fonts/poppins-regular.ttf);
+
+}
+body{
+  background-image: url(images/body.jpg);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+/* :root{
+   color:var(#fff);
+} */
+/* body{
+  background-image: url(images/body.jpg);
+  /* background-position: center; */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 30vh;
+  background-attachment: fixed; */
+
+#header{
+  background-image: url(images/man\ body.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar-nav li a{
+  float: right;
+  color: black !important;
+}
+
+.navbar{
+  align-items: center; /* vertically center navbar contents so logo/toggler stay aligned */
+}
+
+.navbar{
+  align-items: center;
+}
+.navbar-brand img{
+  width: 150px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.navbar-toggler{
+  box-shadow: none !important;
+}
+
+nav .fa-bars{
+  border: none;
+  font-size: 25px;
+  color: black;
+  outline: none !important;
+}
+
+/* --------------Welcome Text-------------------- */
+.welcome{
+  padding: 50px 100px;
+  margin-top: -120px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  
+
+}
+.welcome h1{
+  color: #333;
+  font-family: Raleway, sans-serif;
+  
+}
+.welcome p{
+  color: #555;
+  font-family: 'LibreBaskerville', serif;
+  line-height: 1.6;
+  margin-top: 10px;
+  /* float: right; */
+}
+
+/* -----------About Us------------------ */
+#about{
+  background-color: rgba(0, 0, 0, 0.306) !important;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+}
+#about .col-md-6{
+  padding: 20px 10px;
+
+}
+#about h2{
+ margin: 20px auto;
+ font-family: poppins, sans-serif;
+ font-weight: 600;
+
+color: white !important;
+ text-align: center;
+}
+#about p{
+  color: white !important;
+  margin-top: 30px;
+  line-height: 1.6;
+  color: #555;
+  font-family: 'LibreBaskerville', serif;
+
+}
+#about img{
+  width: 90%;
+}
+.first-btn{
+  display: block;
+  padding: 10px;
+  width: 130px;
+  text-align: center;
+  margin: 20px 20px;
+  background-color: #f9b689a3;
+  border: none;
+  outline: none;
+  font-family: poppins-regular, sans-serif ;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+
+
+/* ---------services-------------- */
+
+#services{
+  background: linear-gradient(to right,#6a8e2332),#7bb66156;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+#services h2{
+ text-align: center;
+ /* display: block; */
+ margin: 50px auto;
+ justify-content: center;
+ color: #fff;
+}
+
+/* #services .col-md-4{
+  padding: 20px;
+  color: #fff;
+}
+#services .col-md-4 h4{
+  padding: 8px;
+}
+#services .col-md-4 img{
+  width: 300px;
+}
+.col-md-4 p{
+  margin-bottom: ;
+  padding-bottom: 20px;
+}
+#services .col-md-4 p{
+  padding: 5px;
+  text-align: justify;
+  color: aliceblue;
+}
+.service-btn{
+  padding: 8px 30px;
+  width: 200px !important;
+  margin: auto;
+  background-color: #ff523b;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  transition: background 0.5s;
+}
+.service-btn:hover{
+  background: ;
+} */
+
+.card{
+  /* background:  linear-gradient(to right,#6b8e23),#7bb661 !important; */
+  width:80% !important;
+  /* background-color: transparent !important; */
+  border: none !important;
+  
+}
+.card img{
+  width:90% !important;
+  height: 300px;
+  margin: 0px auto 10px;
+  object-fit: cover;
+
+
+}
+ .card p{
+  color: black !important;
+   font-family: 'LibreBaskerville', serif;
+   margin-top: 10px;
+
+}
+.card h4{
+  font-family: poppins, sans-serif;
+}
+
+.service-btn{
+  padding: 8px 30px;
+  width: 200px !important;
+  margin: auto;
+  background-color:  #563434;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  transition: background 0.5s;
+}
+.service-btn:hover{
+  background: #555;
+}
