@@ -78,7 +78,7 @@ nav .fa-bars{
   background-color: #fff;
   box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  
+  height: max-content;
 
 }
 .welcome h1{
@@ -282,17 +282,20 @@ color: white !important;
 }
 /* --------------our gallery------------------------ */
 .carousel-item img{
-  width: 100% !important;
-  height: 450px;
+  /* width: 100% !important; */
+  height: 100vh;
+  padding: 50px;
   object-fit: contain;
-  background-color: rgba(0, 0, 0, 0.171) !important;
+
   object-position: center;
 }
 
-#gallery{
+#gallery{ 
+   background-color: rgba(0, 0, 0, 0.171) !important;
   /* padding-top: 100px; */
   padding-bottom: 100px;
   background: transparent;
+  min-height: 80vh !important;
 }
 #gallery h2{
   text-align: center;
